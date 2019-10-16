@@ -1,12 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import '../../src/index.css';
+import React, { Component } from "react";
+import "../index.css";
 
-class NoMatch extends React.Component {
+class NoMatch extends Component {
   render() {
     return (
-      <div className={'top'}>
-          <h1>PAGE NOT FOUND</h1>
+      <div className={'container'}>
+        <h1>No Match Found</h1>
       </div>
     );
   }

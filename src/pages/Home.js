@@ -1,15 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import '../../src/index.css';
+import React, { Component } from "react";
+import Form from "../components/Form"
+import Title from "../components/Title";
 
-class Home extends React.Component {
-  render() {
-    return (
-      <div className={'top'}>
-          <h1>SAML SEARCH</h1>
-      </div>
-    );
-  }
+class Home extends Component {
+    render() {
+        return (
+            <div>
+                <Title />
+                <Form />
+            </div>
+        )
+    }
 }
 
-export default Home;
+export default Home

@@ -36,7 +36,7 @@ button {
 }
 
 table {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 thead {
   background-color: #ffc107;
@@ -49,4 +49,8 @@ thead {
 
 .error-red {
   color: red;
+}
+
+.form-row {
+  outline-color: white;
 }
