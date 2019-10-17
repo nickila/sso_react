@@ -4,6 +4,7 @@ import "./index.css";
 import Home from "./pages/Home";
 import Results from "./pages/Results";
 import NoMatch from "./pages/NoMatch";
+// import Data from "./pages/Data";
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/results" component={Results} />
+                {/*<Route exact path="/data" component={Data} />*/}
                 <Route component={NoMatch} />
               </Switch>
           </div>

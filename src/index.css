@@ -54,3 +54,8 @@ thead {
 .form-row {
   outline-color: white;
 }
+
+.small-form {
+  width: 400px;
+
+}
